@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+video, img {
+    width: 100%;
+    height: auto;
+}
+.row {
+	clear: both;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
